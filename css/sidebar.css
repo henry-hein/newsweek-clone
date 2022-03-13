@@ -1,0 +1,44 @@
+.sidebar {
+  background-color: #f7f7f7;
+}
+
+h3 {
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 20px3
+}
+
+.headlines {
+  list-style-type: square;
+  color: red;
+  border-bottom: 3px solid #f2f2f2;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+li.headlines:last-child {
+  border-bottom: 0;
+}
+
+.headlines a {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.headlines a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.btn-block {
+  font: 16px #757575;
+  background-color: #e5e5e5;
+  line-height: 50px;
+  border: 2px solid grey;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}

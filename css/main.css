@@ -1,0 +1,152 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h2:first-child {
+  font-size: 22px;
+}
+
+.category {
+  color: red;
+}
+
+.title {
+  color: black;
+}
+
+/* Main Pic */
+
+.main-story{
+  position: relative;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.main-info {
+  text-align: center;
+  border-top: 3px solid red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.5) 0, #fff 50%, #fff 100%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.main-info a:hover {
+  color: darkblue;
+}
+
+.horizontal-line {
+  border-top: 1px solid #f2f2f2;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+/* Sub Pics */
+
+.sub-wrapper {
+  border-bottom: 1px solid #f2f2f2;
+  margin-top: 25px;
+}
+
+.divider {
+  border-right: 1px solid #f2f2f2;
+  padding-bottom: 8px;
+}
+
+.sub-info {
+  text-align: center;
+}
+
+.blue {
+  margin-top: -20px;
+  padding-top: 20px;
+  background-color: #E6FFFF;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sub-info a:hover {
+  color: darkblue;
+}
+
+/* Side Bar */
+
+/* Media Queries */
+
+/* Small devices (Under 768px) */
+@media screen and (max-width: 768px) {
+
+  .sub-wrapper{
+    height: 700px;
+  }
+
+  .blue {
+    height: 250px;
+  }
+  
+  .headlines {
+    list-style-position: inside;
+  }
+
+  .sidebar {
+    text-align: center;
+  }
+
+  .main-info {
+    position: relative;
+  }
+
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 992px){
+   
+    .sub-wrapper {
+     height: 550px;
+   }
+
+   .blue {
+     height: 300px;
+   }
+
+   .sidebar {
+     text-align: center;
+   }
+
+   .headlines {
+     list-style-position: inside;
+   }
+
+   h3 {
+     font-weight: normal;
+     padding-bottom: 15px;
+   }
+ }
+
+ @media screen and (min-width: 992px){
+   .sub-wrapper {
+     height: 700px;
+   }
+
+   .blue {
+     height: 300px;
+   }
+ }
+/* Medium devices (tablets, between 768px and 992px) */ 
+
+/* Large devices (desktops, between 992px and 1200px) */
+
+
+/* Extra large devices (large desktops, 1200px and up) */
